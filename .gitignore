@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+.vs/
+TestResults/
+allure-results/
+allure-report/
+*.user
+*.suo
+.env

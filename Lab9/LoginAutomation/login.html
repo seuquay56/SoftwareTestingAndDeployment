@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 9 - Login Demo</title>
+  <style>
+    :root { color-scheme: light; font-family: Segoe UI, Arial, sans-serif; }
+    body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: #edf2f8; color: #172033; }
+    main { width: min(390px, calc(100% - 36px)); box-sizing: border-box; padding: 32px; border-radius: 18px; background: white; box-shadow: 0 18px 55px #15233a20; }
+    h1 { margin: 0 0 8px; font-size: 25px; }
+    p { color: #65738a; margin: 0 0 24px; }
+    label { display: block; font-weight: 600; margin: 15px 0 7px; }
+    input { box-sizing: border-box; width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 9px; font: inherit; }
+    button { width: 100%; margin-top: 22px; padding: 12px; border: 0; border-radius: 9px; background: #2457d6; color: white; font-weight: 700; font-size: 15px; cursor: pointer; }
+    #message { min-height: 22px; margin: 16px 0 0; font-weight: 600; }
+    .hint { margin-top: 18px; font-size: 12px; color: #7b8798; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Welcome back</h1>
+    <p>Sign in to the Lab 9 demonstration page.</p>
+    <form id="loginForm">
+      <label for="username">Username</label>
+      <input id="username" name="username" type="text" autocomplete="username" required>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" required>
+      <button id="loginButton" type="submit">Log in</button>
+    </form>
+    <div id="message" role="status" aria-live="polite"></div>
+    <div class="hint">Demo accounts are listed in TestData/LoginTestData.csv.</div>
+  </main>
+  <script>
+    const validUsers = {
+      user1: "password1",
+      user2: "password2",
+      user3: "password3"
+    };
+    document.getElementById("loginForm").addEventListener("submit", function (event) {
+      event.preventDefault();
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+      const message = document.getElementById("message");
+      if (validUsers[username] === password) {
+        message.textContent = "Login successful.";
+        message.style.color = "#16803c";
+      } else {
+        message.textContent = "Invalid username or password.";
+        message.style.color = "#c02d39";
+      }
+    });
+  </script>
+</body>
+</html>

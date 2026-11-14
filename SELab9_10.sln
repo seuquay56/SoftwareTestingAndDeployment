@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicMath", "Lab9\BasicMath\BasicMath.csproj", "{93EFE014-D915-4F95-96EB-2B45FD07B4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicMath.Tests", "Lab9\BasicMath.Tests\BasicMath.Tests.csproj", "{C01E2109-8B49-4893-AEDA-70A2B597FF87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountApp", "Lab9\BankAccountApp\BankAccountApp.csproj", "{418B951F-13F2-4EC8-88B2-6504D248C5A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccount.Tests", "Lab9\BankAccount.Tests\BankAccount.Tests.csproj", "{006F4F15-3183-43C3-877E-F9DC180FDEE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginAutomation", "Lab9\LoginAutomation\LoginAutomation.csproj", "{63184986-58A2-4C1A-B0C8-EAECDD334B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeploymentDemo", "Lab10\DeploymentDemo\DeploymentDemo.csproj", "{FE65ACFA-7787-4B13-83C4-0CDF716252CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93EFE014-D915-4F95-96EB-2B45FD07B4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EFE014-D915-4F95-96EB-2B45FD07B4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EFE014-D915-4F95-96EB-2B45FD07B4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EFE014-D915-4F95-96EB-2B45FD07B4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C01E2109-8B49-4893-AEDA-70A2B597FF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01E2109-8B49-4893-AEDA-70A2B597FF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01E2109-8B49-4893-AEDA-70A2B597FF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01E2109-8B49-4893-AEDA-70A2B597FF87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{418B951F-13F2-4EC8-88B2-6504D248C5A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{418B951F-13F2-4EC8-88B2-6504D248C5A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{418B951F-13F2-4EC8-88B2-6504D248C5A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{418B951F-13F2-4EC8-88B2-6504D248C5A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006F4F15-3183-43C3-877E-F9DC180FDEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006F4F15-3183-43C3-877E-F9DC180FDEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006F4F15-3183-43C3-877E-F9DC180FDEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006F4F15-3183-43C3-877E-F9DC180FDEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63184986-58A2-4C1A-B0C8-EAECDD334B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63184986-58A2-4C1A-B0C8-EAECDD334B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63184986-58A2-4C1A-B0C8-EAECDD334B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63184986-58A2-4C1A-B0C8-EAECDD334B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE65ACFA-7787-4B13-83C4-0CDF716252CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE65ACFA-7787-4B13-83C4-0CDF716252CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE65ACFA-7787-4B13-83C4-0CDF716252CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE65ACFA-7787-4B13-83C4-0CDF716252CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

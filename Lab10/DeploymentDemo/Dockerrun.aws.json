@@ -1,0 +1,10 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "YOUR_AWS_ACCOUNT_ID.dkr.ecr.YOUR_REGION.amazonaws.com/selab-deployment-demo:latest",
+    "Update": "true"
+  },
+  "Ports": [
+    { "ContainerPort": "8080" }
+  ]
+}
